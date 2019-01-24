@@ -61,8 +61,6 @@ There are other additional fields:
                 "title": "Qualification.pdf",
                 "url": "http://public.docs-sandbox.openprocurement.org/get/f8910e202a3f451a904ae67142358a74?KeyID=d8e133db&Signature=gWwLvym6za8Ii%252BfpoueQoftCtQSE4M%2FyyNKu%2FtLjuy96l%2FYJoH%252BUFQ4Up8YpoFnppZo1mHxGOuZ2XMOK49ZLDg%253D%253D",
                 "format": "application/pdf",
-                "relatedItem": "edd0032574bf4402877ad5f362df225a",
-                "documentScope": "tender",
                 "datePublished": "2017-06-21T17:05:22.481301+03:00",
                 "id": "95a16064160d49fe820a8bee63fff415",
                 "dateModified": "2017-06-21T17:05:22.481335+03:00"
@@ -86,18 +84,16 @@ There are other additional fields:
           {
             "id": "1.0",
             "selfQualified": true,
-            "qualificationDocuments": [
-              {
-                    "id": "0007",
-                    "documentType": "notice",
-                    "title": "Qualification notice",
-                    "description": "Qualification",
-                    "url": "http://example.com/tender-qualification/ocds-213czf-000-00001-04.html",
-                    "datePublished": "2010-05-10T10:30:00Z",
-                    "format": "text/html",
-                    "language": "en"
-              }
-            ],
+            "qualificationDocuments": {
+              "id": "0007",
+              "documentType": "notice",
+              "title": "Qualification notice",
+              "description": "Qualification",
+              "url": "http://example.com/tender-qualification/ocds-213czf-000-00001-04.html",
+              "datePublished": "2010-05-10T10:30:00Z",
+              "format": "text/html",
+              "language": "en"
+            },
           },
         ]
       },     
